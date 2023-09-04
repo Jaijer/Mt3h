@@ -7,9 +7,9 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        movies: "url('./src/assets/Movies-banner.jpg')",
-        shows: "url('./src/assets/Shows-banner.jpg')",
-        anime: "url('./src/assets/Anime-banner.png')"
+        movies: "url('/src/assets/Movies-banner.jpg')",
+        shows: "url('assets/src/assets/Shows-banner.jpg')",
+        anime: "url('/src/assets/Anime-banner.png')"
       },
       colors: {
         deepBlue: "rgb(37,43,72)",
